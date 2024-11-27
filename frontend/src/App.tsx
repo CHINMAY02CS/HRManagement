@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <p>This is frontend</p>
+      <p>Welcome to HRXPERT</p>
     </>
   );
 }
