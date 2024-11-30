@@ -15,7 +15,6 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
 
   const onSubmit = async (e) => {
-    e.preventDefault();
     try {
       const response = await axios.post(
         "http://localhost:3000/api/auth//login",
